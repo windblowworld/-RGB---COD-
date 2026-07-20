@@ -2,11 +2,9 @@
 
 本项目是水样化学需氧量（COD）辅助分析系统：微信小程序负责 RGB 数据录入和结果展示，独立 Node.js 服务负责参数校验、量程选择、标定公式计算、异常值处理与检测记录保存，实现前后端解耦。
 
-## 论文成果
+## 相关论文
 
-王诗彤，贺洋洋，**熊细鸿**，张维，夏美琳，唐凤琳. 基于手机RGB图像-微信小程序的化学需氧量（COD）实时可视化快速分析[J]. 大学化学，2026，41(1)：394-405.
-
-你作为论文第三作者熊细鸿参与了相关工作。论文链接：[中国知网](https://kns.cnki.net/kcms2/article/abstract?v=hUjjRxyvaVO7ggD70-8QVSVSyTYjxM1j2ecB9irtQq_A4I2xkMJ6SZlCF9oPFPjTW_qQRNptuLqYs-wI9_SYqduxCR5ipGeQjNBCwTiHSbGirLCv9tM9HtW7D7eznxTUAVaFbx3iA32wbis2EHvnXGy-h0vU3dKXnWAg8M-CCo4bWHVnyZVVhg==&uniplatform=NZKPT&language=CHS)。
+王诗彤，贺洋洋，熊细鸿，张维，夏美琳，唐凤琳. 基于手机RGB图像-微信小程序的化学需氧量（COD）实时可视化快速分析[J]. 大学化学，2026，41(1)：394-405. [中国知网](https://kns.cnki.net/kcms2/article/abstract?v=hUjjRxyvaVO7ggD70-8QVSVSyTYjxM1j2ecB9irtQq_A4I2xkMJ6SZlCF9oPFPjTW_qQRNptuLqYs-wI9_SYqduxCR5ipGeQjNBCwTiHSbGirLCv9tM9HtW7D7eznxTUAVaFbx3iA32wbis2EHvnXGy-h0vU3dKXnWAg8M-CCo4bWHVnyZVVhg==&uniplatform=NZKPT&language=CHS)
 
 ```bibtex
 @article{DXHX202601037,
