@@ -1,4 +1,10 @@
 project.private.config.json
+
+# Independent service runtime data
+server/data/
+
+# Independent service runtime data
+server/data/
 # Windows
 [Dd]esktop.ini
 Thumbs.db
@@ -16,3 +22,4 @@ node_modules/
 
 # WeChat DevTools local configuration
 project.private.config.json
+miniprogram/envList.js

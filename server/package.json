@@ -1,0 +1,9 @@
+{
+  "name": "cod-analysis-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent backend service for COD calculation and measurement records.",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "test": "node --test" },
+  "engines": { "node": ">=18" }
+}
