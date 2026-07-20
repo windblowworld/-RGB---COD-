@@ -1,0 +1,70 @@
+<view class="container">
+  <!-- 添加超链接 -->
+  <view class="top-link">
+    <text class="link-text">点此跳转介绍</text>
+    <text class="arrow">→</text>
+    <navigator url="/pages/codInfo/codInfo" open-type="navigate">COD相关含量介绍</navigator>
+  </view>
+
+  <!-- 高低量程标签 -->
+  <view class="tabs">
+    <view class="{{highRangeActive ? 'tab active' : 'tab'}}" bindtap="switchToHighRange">
+      高量程
+    </view>
+    <view class="{{lowRangeActive ? 'tab active' : 'tab'}}" bindtap="switchToLowRange">
+      低量程
+    </view>
+  </view>
+
+  <!-- 输入提示 -->
+  <view class="input-info">
+    <text>请分别输入当前像素点的RGB值：</text>
+  </view>
+
+  <!-- 输入框部分 -->
+  <view class="input-section">
+    <label for="r-value">R值:</label>
+    <input id="r-value" type="text" value="{{rValue}}" bindinput="onRInput" class="input-box" step="any"/>
+  </view>
+  <view class="input-section">
+    <label for="g-value">G值:</label>
+    <input id="g-value" type="text" value="{{gValue}}" bindinput="onGInput" class="input-box" step="any"/>
+  </view>
+  <view class="input-section">
+    <label for="b-value">B值:</label>
+    <input id="b-value" type="text" value="{{bValue}}" bindinput="onBInput" class="input-box" step="any"/>
+  </view>
+
+  <!-- 清除按钮 -->
+  <button bindtap="onClearRGB" class="clear-button">一键清除输入</button>
+
+  <!-- 计算按钮 -->
+  <button bindtap="onCalculate" class="calc-button">计算COD含量</button>
+  
+   <!-- 结果显示部分 -->
+   <view class="result">
+    <view class="text-section">
+      <text class="aligned-text">COD含量(单位mg/L)：</text>
+      <text class="result-value">当前值：{{codResult}}</text>
+    </view>
+  </view>
+
+   <!-- 平均数计算器部分 -->
+   <view class="average-calc-section">
+  <text class="average-calc-title">平均数计算器</text>
+  <view class="inputs-grid">
+    <block wx:for="{{inputValues}}" wx:key="index">
+      <input type="text" value="{{item}}" data-index="{{index}}" bindinput="onAverageInput" class="input-box black-box" step="any" />
+    </block>
+  </view>
+  <button bindtap="onCalculateAverage" class="calc-button">计算平均COD含量</button>
+  <view class="result">
+    <text>平均COD含量: {{averageCod}}</text>
+  </view>
+</view>
+
+  <!-- 提示信息 -->
+  <view class="usage-tips">
+    <navigator url="/pages/useTips/useTips" open-type="navigate">使用建议</navigator>
+  </view>
+</view>

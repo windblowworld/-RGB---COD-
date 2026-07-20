@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/index-cloud/index-cloud",
+    "pages/index-main/index",
+    "pages/codInfo/codInfo",
+    "pages/useTips/useTips",
     "pages/index/index",
     "pages/goods-list/index",
     "pages/examples/index",
@@ -20,10 +22,10 @@
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "\u6c34\u6837 COD \u68c0\u9a8c",
+    "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2",
@@ -35,25 +37,25 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "快速开始",
+        "text": "\u5feb\u901f\u5f00\u59cb",
         "iconPath": "images/icons/home.png",
         "selectedIconPath": "images/icons/home-active.png"
       },
       {
         "pagePath": "pages/examples/index",
-        "text": "基础能力",
+        "text": "\u57fa\u7840\u80fd\u529b",
         "iconPath": "images/icons/examples.png",
         "selectedIconPath": "images/icons/examples-active.png"
       },
       {
         "pagePath": "pages/business/index",
-        "text": "业务示例",
+        "text": "\u4e1a\u52a1\u793a\u4f8b",
         "iconPath": "images/icons/business.png",
         "selectedIconPath": "images/icons/business-active.png"
       },
       {
         "pagePath": "pages/user-center/index",
-        "text": "我",
+        "text": "\u6211\u7684",
         "iconPath": "images/icons/usercenter.png",
         "selectedIconPath": "images/icons/usercenter-active.png"
       }

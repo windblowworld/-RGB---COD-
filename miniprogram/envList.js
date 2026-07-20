@@ -1,4 +1,4 @@
-const envList = [{"envId":"watertest-3gilhec78e6139da","alias":"watertest"}]
+const envList = [{"envId":"your-env-id","alias":"watertest"}]
 const isMac = false
 module.exports = {
     envList,

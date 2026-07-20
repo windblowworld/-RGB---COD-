@@ -1,0 +1,179 @@
+/* 设置容器样式 */
+.container {
+    padding: 20px;
+    background-color: #D2B48C; /* 暖棕色 */
+    min-height: 100vh; /* 保证背景颜色覆盖整个页面 */
+  }
+  
+ /* 超链接容器样式 */
+.top-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* 链接前的文本样式 */
+  .link-text {
+    display: block;
+    color: #000000; /* 设置文本颜色为黑色 */
+    margin-right: 5px; /* 设置右边距，让箭头和文字不贴在一起 */
+  }
+  
+  /* 箭头样式 */
+  .arrow {
+    color: #000000; /* 设置箭头颜色为黑色 */
+    margin-right: 5px; /* 设置右边距，让箭头和链接不贴在一起 */
+  }
+  
+  /* 超链接样式 */
+  .top-link navigator {
+    color: #000000; /* 设置超链接颜色为黑色 */
+    text-decoration: underline; /* 保持下划线 */
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
+
+  .tab {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red; /* Inactive tab color */
+  }
+
+  .tab.active {
+    background-color: green; /* Active tab color */
+    color: white;
+  }
+  
+/* 设置rgb值显示区域 */
+  .rgb-output {
+    margin-top: 20px;
+  }
+  
+  .rgb-item {
+    margin-bottom: 10px;
+    border: 2px solid black;
+  }
+
+/* 输入信息提示的样式 */
+  .input-info {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+  }
+  
+
+  /* 设置输入框的样式 */
+  .input-box {
+    border: 1px solid black; /* 黑色边框 */
+    padding: 5px;
+    height: 27px; /* 增加高度，确保数字不会被遮挡 */
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.2; /* 确保输入框内的数字居中显示 */
+  }
+  
+  .clear-button {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+  /* 设置按钮样式 */
+  .calc-button {
+    background-color: #F5DEB3; /* 浅绿色背景 */
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  /* 结果显示部分样式 */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #D2B48C;
+}
+
+.result-value {
+    font-size: 16px;
+    color: #333;
+    margin-left: 10px;
+  }
+
+  /* 单个 text 容器样式 */
+.text-section {
+    width: 100%; /* 占满整个宽度 */
+    margin-bottom: 10px; /* 每个 text 之间的间距 */
+  }
+  
+  /* text 元素左对齐 */
+  .aligned-text {
+    display: block; /* 让 text 成为块级元素 */
+    text-align: left; /* 左对齐 */
+    color: #333; /* 可根据需要调整颜色 */
+    font-size: 16px; /* 可根据需要调整字体大小 */
+  }
+  
+  .info-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #D2B48C; /* 背景色可以自定义 */
+    border-radius: 5px;
+    border: 1px solid black; /* 边框颜色可以自定义 */
+  }
+  
+  .average-calc-section {
+    margin-top: 20px;
+  }
+  
+  .average-calc-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .inputs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .black-box {
+    width: 45%;
+    margin: 10px 0;
+    padding: 10rpx;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .calc-button {
+    margin-top: 20px;
+  }
+  
+  .usage-tips {
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    text-decoration: underline; /* 保持下划线 */
+  }
+  

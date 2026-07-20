@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="content">
+    <text class="title">使用建议</text>
+    
+    <view class="section">
+      <text class="section-title">1. 采样建议:</text>
+      <text class="section-text">对于一份水样，建议从5-10个不同的像素点采集RGB值，并使用这些值计算出相应的平均COD含量。</text>
+    </view>
+    
+    <view class="section">
+      <text class="section-title">2. 数据录入:</text>
+      <text class="section-text">将每次计算出的COD结果复制到平均数计算器中，确保录入的数据准确无误。</text>
+    </view>
+    
+    <view class="section">
+      <text class="section-title">3. 异常数据处理:</text>
+      <text class="section-text">在低量程模式下，如果计算结果与其他数据相差5以上，应舍去该数据；在高量程模式下，如果差异相差30以上，也应舍去。</text>
+    </view>
+    
+    <view class="section">
+      <text class="section-title">4. 平均值计算：</text>
+      <text class="section-text">当录入的有效数据达到5至10个时，便可以通过平均数计算器计算出当前水样的平均COD含量。</text>
+    </view>
+  </view>
+</view>

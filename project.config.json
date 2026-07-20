@@ -37,7 +37,7 @@
     "minifyWXSS": true
   },
   "appid": "wxd06ddc6ac9258bbd",
-  "projectname": "quickstart-wx-cloud",
+  "projectname": "watertest",
   "libVersion": "latest",
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
   "condition": {
