@@ -52,7 +52,7 @@ Page({
     const range = this.data.rangeMode === 'auto' ? 'auto' : (this.data.highRangeActive ? 'high' : 'low');
     this.setData({ isCalculating: true });
     try {
-      const result = await this.request('/api/v1/cod/calculate', { r, g, b, range });
+      const result = await this.request('/api/v1/measurements', { r, g, b, range });
       this.setData({ codResult: result.cod.toFixed(5), highRangeActive: result.range === 'high', lowRangeActive: result.range === 'low' });
     } catch (error) {
       wx.showToast({ title: '\u8ba1\u7b97\u8bf7\u6c42\u5931\u8d25', icon: 'none' });
@@ -63,6 +63,7 @@ Page({
   },
   switchToHighRange() { this.setData({ highRangeActive: true, lowRangeActive: false, rangeMode: 'manual' }); },
   switchToLowRange() { this.setData({ highRangeActive: false, lowRangeActive: true, rangeMode: 'manual' }); },
+  switchToAutoRange() { this.setData({ rangeMode: 'auto' }); },
   onAverageInput(event) {
     const inputValues = [...this.data.inputValues];
     inputValues[event.currentTarget.dataset.index] = this.validateInput(event.detail.value);

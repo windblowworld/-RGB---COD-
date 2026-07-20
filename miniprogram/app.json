@@ -2,23 +2,7 @@
   "pages": [
     "pages/index-main/index",
     "pages/codInfo/codInfo",
-    "pages/useTips/useTips",
-    "pages/index/index",
-    "pages/goods-list/index",
-    "pages/examples/index",
-    "pages/user-center/index",
-    "pages/exampleDetail/index",
-    "pages/deployService/index",
-    "pages/updateRecord/index",
-    "pages/updateRecordResult/index",
-    "pages/updateRecordSuccess/index",
-    "pages/sumRecord/index",
-    "pages/sumRecordResult/index",
-    "pages/web/index",
-    "pages/cloudbaseModuleDetail/index",
-    "pages/cloudbaseModuleInstallTips/index",
-    "pages/cloudbaseModuleGuide/index",
-    "pages/business/index"
+    "pages/useTips/useTips"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -29,36 +13,5 @@
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2",
-  "lazyCodeLoading": "requiredComponents",
-  "tabBar": {
-    "color": "#A2A9B0",
-    "selectedColor": "#07C160",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "\u5feb\u901f\u5f00\u59cb",
-        "iconPath": "images/icons/home.png",
-        "selectedIconPath": "images/icons/home-active.png"
-      },
-      {
-        "pagePath": "pages/examples/index",
-        "text": "\u57fa\u7840\u80fd\u529b",
-        "iconPath": "images/icons/examples.png",
-        "selectedIconPath": "images/icons/examples-active.png"
-      },
-      {
-        "pagePath": "pages/business/index",
-        "text": "\u4e1a\u52a1\u793a\u4f8b",
-        "iconPath": "images/icons/business.png",
-        "selectedIconPath": "images/icons/business-active.png"
-      },
-      {
-        "pagePath": "pages/user-center/index",
-        "text": "\u6211\u7684",
-        "iconPath": "images/icons/usercenter.png",
-        "selectedIconPath": "images/icons/usercenter-active.png"
-      }
-    ]
-  }
+  "lazyCodeLoading": "requiredComponents"
 }

@@ -1,7 +1,7 @@
 /* 设置容器样式 */
 .container {
     padding: 20px;
-    background-color: #D2B48C; /* 暖棕色 */
+    background-color: #f5f7fa; /* 暖棕色 */
     min-height: 100vh; /* 保证背景颜色覆盖整个页面 */
   }
   
@@ -42,11 +42,13 @@
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    background-color: red; /* Inactive tab color */
+    background-color: #ffffff; /* Inactive tab color */
+    border: 1px solid #d9e1ea;
+    color: #52616b;
   }
 
   .tab.active {
-    background-color: green; /* Active tab color */
+    background-color: #2b4b6b; /* Active tab color */
     color: white;
   }
   
@@ -92,8 +94,8 @@
 
   /* 设置按钮样式 */
   .calc-button {
-    background-color: #F5DEB3; /* 浅绿色背景 */
-    color: black;
+    background-color: #2b4b6b; /* 浅绿色背景 */
+    color: #ffffff;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -108,7 +110,7 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: #D2B48C;
+    background-color: #ffffff;
 }
 
 .result-value {
@@ -176,4 +178,3 @@
     text-align: center;
     text-decoration: underline; /* 保持下划线 */
   }
-  

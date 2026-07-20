@@ -1,25 +1,17 @@
-project.private.config.json
-
-# Independent service runtime data
-server/data/
-
-# Independent service runtime data
-server/data/
-# Windows
+# Operating-system files
 [Dd]esktop.ini
 Thumbs.db
 $RECYCLE.BIN/
-
-# macOS
 .DS_Store
 .fseventsd
 .Spotlight-V100
 .TemporaryItems
 .Trashes
 
-# Node.js
+# Dependencies and runtime data
 node_modules/
+server/data/
 
-# WeChat DevTools local configuration
+# Local WeChat DevTools configuration and cloud environment settings
 project.private.config.json
 miniprogram/envList.js

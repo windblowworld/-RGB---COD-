@@ -8,6 +8,9 @@
 
   <!-- 高低量程标签 -->
   <view class="tabs">
+    <view class="{{rangeMode === 'auto' ? 'tab active' : 'tab'}}" bindtap="switchToAutoRange">
+      自动量程
+    </view>
     <view class="{{highRangeActive ? 'tab active' : 'tab'}}" bindtap="switchToHighRange">
       高量程
     </view>
@@ -39,7 +42,7 @@
   <button bindtap="onClearRGB" class="clear-button">一键清除输入</button>
 
   <!-- 计算按钮 -->
-  <button bindtap="onCalculate" class="calc-button">计算COD含量</button>
+  <button bindtap="onCalculate" class="calc-button" loading="{{isCalculating}}" disabled="{{isCalculating}}">计算COD含量</button>
   
    <!-- 结果显示部分 -->
    <view class="result">
@@ -57,7 +60,7 @@
       <input type="text" value="{{item}}" data-index="{{index}}" bindinput="onAverageInput" class="input-box black-box" step="any" />
     </block>
   </view>
-  <button bindtap="onCalculateAverage" class="calc-button">计算平均COD含量</button>
+  <button bindtap="onCalculateAverage" class="calc-button" loading="{{isAveraging}}" disabled="{{isAveraging}}">计算平均COD含量</button>
   <view class="result">
     <text>平均COD含量: {{averageCod}}</text>
   </view>
