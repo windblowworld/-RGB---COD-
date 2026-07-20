@@ -8,7 +8,16 @@
 
 [基于手机RGB图像-微信小程序的化学需氧量（COD）实时可视化快速分析（中国知网）](https://kns.cnki.net/kcms2/article/abstract?v=hUjjRxyvaVO7ggD70-8QVSVSyTYjxM1j2ecB9irtQq_A4I2xkMJ6SZlCF9oPFPjTW_qQRNptuLqYs-wI9_SYqduxCR5ipGeQjNBCwTiHSbGirLCv9tM9HtW7D7eznxTUAVaFbx3iA32wbis2EHvnXGy-h0vU3dKXnWAg8M-CCo4bWHVnyZVVhg==&uniplatform=NZKPT&language=CHS)
 
-> 建议在正式公开仓库时补充论文作者、发表期刊/会议、发表年份和 DOI（如有）。请确认论文版权许可后再决定是否上传论文 PDF。
+@article{DXHX202601037,
+author = {  王诗彤 and     贺洋洋 and     熊细鸿 and     张维 and     夏美琳 and 唐凤琳},
+title = {基于手机RGB图像-微信小程序的化学需氧量（COD）实时可视化快速分析},
+journal = {大学化学},
+volume = {41},
+ number = {1},
+pages = {394-405},
+year = {2026},
+issn = {1000-8438},
+}
 
 ## 系统架构
 
